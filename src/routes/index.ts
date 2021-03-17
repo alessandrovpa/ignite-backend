@@ -1,8 +1,8 @@
 import { Router } from 'express';
 
-const routes = Router();
-
 import categoriesRoutes from './categories.routes';
+
+const routes = Router();
 
 routes.use('/categories', categoriesRoutes);
 
